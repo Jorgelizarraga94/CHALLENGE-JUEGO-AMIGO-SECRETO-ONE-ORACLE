@@ -3,6 +3,7 @@ let NombreAmigos = [];
 let lista = document.getElementById('listaAmigos');
 let resultadoFinal = document.getElementById('resultado');
 
+//Agregamos el nombre de cada amigo a una lista que se ira visualizando en pantalla.
 function agregarAmigo(){
     let inputAmigo = document.getElementById('amigo').value;
     if(inputAmigo === ''){
@@ -14,7 +15,7 @@ function agregarAmigo(){
         document.getElementById('amigo').value = '';
     }
 }
-
+//Esta función actualiza la lista en pantalla cada vez que se agrega un integrante nuevo
 function actualizarListaAmigos(){
     lista.innerHTML = '';
     NombreAmigos.forEach(nombres => {
@@ -23,7 +24,7 @@ function actualizarListaAmigos(){
         lista.appendChild(nuevoAmigo);
     });
 }
-
+//Esta función Elige un amigo de forma Random y lo muestra en pantalla.
 function sortearAmigo(){
     if(NombreAmigos.length == 0){
         alert('inserte amigos por favor');
