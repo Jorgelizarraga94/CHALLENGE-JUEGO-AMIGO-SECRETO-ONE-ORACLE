@@ -15,6 +15,7 @@ function agregarAmigo(){
         document.getElementById('amigo').value = '';
     }
 }
+
 //Esta función actualiza la lista en pantalla cada vez que se agrega un integrante nuevo
 function actualizarListaAmigos(){
     lista.innerHTML = '';
