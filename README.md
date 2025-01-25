@@ -10,3 +10,5 @@ En este desafío desarrollé una aplicación web que permita a los usuarios ingr
 3. Al finalizar, un botón **"Sortear Amigo"** seleccionará uno de los nombres de forma aleatoria, mostrando el resultado en pantalla.
 
 Challenge creado para el curso de Principiante en programación con JAVASCRIPT de la plataforma Alura LATAM, Dentro del programa ONE de Oracle.
+
+https://jorgelizarraga94.github.io/CHALLENGE-JUEGO-AMIGO-SECRETO-ONE-ORACLE/
